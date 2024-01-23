@@ -52,51 +52,56 @@
           </div>
        </nav>
        <!-- banner section -->
-       <section class="mt-10">
-        <div class="carousel w-full">
+       <section class="mt-10 p-4">
+        <div class="relative">
+            <div class="carousel w-full">
 
-            <div id="slide1" class="carousel-item relative w-full h-[550px]">
-              <img src="./Images/1.png" class="w-full object-cover" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
+                <div id="slide1" class="carousel-item relative w-full h-[550px]">
+                  <img src="./Images/1.png" class="w-full object-cover" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+    
+                <div id="slide2" class="carousel-item relative w-full h-[550px]">
+                  <img src="./Images/2.png" class="w-full object-cover" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full h-[550px]">
+                  <img src="./Images/3.png" class="w-full object-cover" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./Images/4.png" class="w-full object-cover h-[550px]" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                
+              
               </div>
-            </div> 
 
-            <div id="slide2" class="carousel-item relative w-full h-[550px]">
-              <img src="./Images/2.png" class="w-full object-cover" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full h-[550px]">
-              <img src="./Images/3.png" class="w-full object-cover" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="./Images/4.png" class="w-full object-cover h-[550px]" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-            <!-- relative section -->
-          <div class="bg-black text-white  p-5 w-2/4 lg:absolute bottom-12 right-16 rounded-2xl">
+            <!--banner relative section -->
+          <div class="bg-black text-white  p-5 md:w-2/4 lg:absolute bottom-12 right-16 rounded-2xl">
             <h1 class="text-2xl font-extrabold mb-3  ">Meet all the heroes from the field</h1>
             <p class="text-base font-medium text-[#FFFFFF99]">It is a fast-paced, highly physical and played by male and female athletes with a physical impairment in the lower part of the body. Instead of skates. </p>
           </div>
-          
-          </div>
+        </div>
+        
           
        </section>
     </header>
     <main class="container mx-auto ">
         <!-- professional section -->
-        <section class="my-24">
+        <section class="my-24 p-4">
             <h1 class="text-center text-3xl md:text-4xl font-extrabold">Professional Hockeys Club</h1>
             <p class="w-1/2 mx-auto text-[#13131899] mt-3">The Paralympic version of ice hockey uses double-blade sledges instead of skates and two sticks. It is a fast-paced, highly physical and played by male and female athletes. </p>
             
@@ -104,7 +109,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 mt-24">
                 <!-- card-1 -->
                 <div class="card ">
-                    <figure><div class="radial-progress bg-purple-600 text-primary-content border-4 border-purple-600" style="--value:70;" role="progressbar">70%</div></figure>
+                    <figure><div class="radial-progress rotate-180 bg-purple-600 text-primary-content border-4 border-purple-600" style="--value:70;" role="progressbar"><span class="rotate-180">70%</span></div></figure>
                     <div class="card-body text-center">
                       <h2 class="text-xl font-semibold">Prayer Facility</h2>
                       <p class="text-[#13131899] font-normal text-bases"> Sledge_hockey
@@ -114,7 +119,7 @@
                 </div>
                 <!-- card-2 -->
                 <div class="card ">
-                    <figure><div class="radial-progress bg-pink-500 text-primary-content border-4 border-pink-500" style="--value:67;" role="progressbar">67%</div></figure>
+                    <figure><div class="radial-progress rotate-180 bg-pink-500 text-primary-content border-4 border-pink-500" style="--value:67;" role="progressbar"><span class="rotate-180">67%</span></div></figure>
                     <div class="card-body text-center">
                       <h2 class="text-xl font-semibold">Experienced Coach</h2>
                       <p class="text-[#13131899] font-normal text-bases"> Sledge_hockey
@@ -124,7 +129,7 @@
                 </div>
                 <!-- card-3 -->
                 <div class="card  ">
-                    <figure><div class="radial-progress bg-red-600 text-primary-content border-4 border-red-600" style="--value:90;" role="progressbar">90%</div></figure>
+                    <figure><div class="radial-progress rotate-180 bg-red-600 text-primary-content border-4 border-red-600" style="--value:90;" role="progressbar"><span class="rotate-180">90%</span></div></figure>
                     <div class="card-body text-center">
                       <h2 class="text-xl font-semibold">Senior Player</h2>
                       <p class="text-[#13131899] font-normal text-bases"> Sledge_hockey
@@ -134,7 +139,7 @@
                 </div>
                 <!-- card-4 -->
                 <div class="card ">
-                    <figure><div class="radial-progress bg-info text-primary-content border-4 border-info" style="--value:80;" role="progressbar">80%</div></figure>
+                    <figure><div class="radial-progress rotate-180 bg-info text-primary-content border-4 border-info" style="--value:80;" role="progressbar"><span class="rotate-180">80%</span></div></figure>
                     <div class="card-body text-center">
                       <h2 class="text-xl font-semibold">Training Ground</h2>
                       <p class="text-[#13131899] font-normal text-bases text-center"> 
@@ -148,25 +153,42 @@
         <section class="my-24">
             <h1 class="text-center text-3xl md:text-4xl font-extrabold">Program Sections</h1>
             <p class="w-1/2 mx-auto text-[#13131899] mt-3 text-center">The Paralympic version of ice hockey uses double-blade sledges instead of skates and two sticks ice hockey in international competition.  </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-14 md:mt-20">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-14 md:mt-20">
                 <!-- 1 -->
-               <div class="bg-[url(./Images/2.png)] bg-cover bg-bottom object-cover rounded-2xl p-5 h-[338px] flex flex-col justify-end items-start space-y-3 sm:col-span-2 md:col-span-1">
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(./Images/2.png);] bg-no-repeat bg-center bg-cover p-5 space-y-3  rounded-2xl  h-[338px] flex flex-col justify-end items-start">
+                    <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Junior Program</h1>
+                    <p class="w-2/3 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
+                    <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
+                   </div>
+
+               <!-- <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(./Images/2.png);] bg-cover bg-no-repeat bg-center object-cover rounded-2xl p-5 h-[338px]  space-y-3 sm:col-span-2 md:col-span-1 ">
+                <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Junior Program</h1>
+                <p class="w-2/3 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
+                <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
+               </div> -->
+               <!-- 2 -->
+               <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(./Images/3.png);] bg-no-repeat bg-center bg-cover p-5 space-y-3  rounded-2xl  h-[338px] flex flex-col justify-end items-start">
                 <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Junior Program</h1>
                 <p class="w-2/3 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
                 <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
                </div>
-               <!-- 2 -->
-               <div class="bg-[url(./Images/3.png)] bg-cover bg-bottom object-cover rounded-2xl p-5 h-[338px] flex flex-col justify-end items-start space-y-3  w-full">
+               <!-- <div class="bg-[url(./Images/3.png)] bg-cover bg-bottom object-cover rounded-2xl p-5 h-[338px]  space-y-3  w-full ">
                 <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Teenager Program</h1>
                 <p class="w-2/3 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
                 <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
-               </div>
+               </div> -->
                 <!-- 3 -->
-                <div class="bg-[url(./Images/4.png)] bg-cover bg-bottom object-cover rounded-2xl p-5 h-[338px] flex flex-col justify-end items-start space-y-3 col-span-2 ">
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.4)),url(./Images/4.png);] bg-no-repeat bg-center bg-cover p-5 space-y-3  rounded-2xl lg:col-span-2  h-[338px] flex flex-col justify-end items-start">
+                    <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Junior Program</h1>
+                    <p class="w-2/3 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
+                    <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
+                   </div>
+                <!-- <div class="bg-[url(./Images/4.png)] bg-cover bg-bottom object-cover rounded-2xl p-5 h-[338px] flex flex-col justify-end items-start space-y-3 col-span-2 ">
                     <h1 class="text-3xl font-extrabold text-[#FFFFFF]">Professional Program</h1>
                     <p class=" w-2/5 text-[#FFFFFF]"> Sledge hockey, also known as Sled hockey in American English, and Para ice hockey in international competition</p>
                     <button class="btn btn-active bg-[#FF4240] border-none text-white text-xl">Register Now!</button>
-                </div>
+                </div> -->
 
             </div>
         </section>
